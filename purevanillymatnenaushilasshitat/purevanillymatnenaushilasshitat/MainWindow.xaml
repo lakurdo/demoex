@@ -14,9 +14,12 @@
     </Window.Resources>
 
     <Grid>
+
         <Grid.RowDefinitions>
             <RowDefinition Height="70"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition/>
+            <RowDefinition Height="30"/>
         </Grid.RowDefinitions>
 
         <!-- Верхняя панель -->
@@ -24,13 +27,32 @@
             <TextBlock Text="Каталог товаров" VerticalAlignment="Center" HorizontalAlignment="Center"
                        FontSize="24" FontWeight="Bold" Foreground="Black"/>
         </Border>
+        <!-- Панель фильтра и поиска -->
+        <DockPanel Grid.Row="1" Margin="10">
+            <!-- Фильтр по скидке -->
+            <StackPanel Orientation="Vertical" Width="200">
+                <TextBlock Text="Фильтрация по скидке"/>
+                <ComboBox Name="DiscountFilterCB" SelectionChanged="Filter_Changed">
+                    <ComboBoxItem Content="Все скидки" IsSelected="True"/>
+                    <ComboBoxItem Content="0% - 4%"/>
+                    <ComboBoxItem Content="5% - 7%"/>
+                </ComboBox>
+
+            </StackPanel>
+
+            <!-- Поиск -->
+            <StackPanel Orientation="Vertical" Margin="0,0,0,0" HorizontalAlignment="Right">
+                <TextBlock Text="Поиск"/>
+                <TextBox Name="SearchTB" Width="200" TextChanged="Filter_Changed"/>
+            </StackPanel>
+        </DockPanel>
 
         <!-- Список товаров -->
-        <ScrollViewer Grid.Row="1">
+        <ScrollViewer Grid.Row="2">
             <ListBox Name="TovarLB"
-                     Background="White"
-                     BorderThickness="0"
-                     HorizontalContentAlignment="Stretch">
+             Background="White"
+             BorderThickness="0"
+             HorizontalContentAlignment="Stretch">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <Border BorderBrush="Black" BorderThickness="1" Margin="5">
@@ -59,11 +81,11 @@
                                 <!-- Скидка -->
                                 <Border BorderBrush="LightGray" BorderThickness="1" Grid.Column="2" Margin="5">
                                     <TextBlock Text="{Binding Deistvyushay_sale, StringFormat=' {0} %'}"
-                                               Foreground="OrangeRed"
-                                               FontSize="20"
-                                               FontWeight="Bold"
-                                               VerticalAlignment="Center"
-                                               HorizontalAlignment="Center"/>
+                                       Foreground="OrangeRed"
+                                       FontSize="20"
+                                       FontWeight="Bold"
+                                       VerticalAlignment="Center"
+                                       HorizontalAlignment="Center"/>
                                 </Border>
                             </Grid>
                         </Border>
@@ -71,5 +93,13 @@
                 </ListBox.ItemTemplate>
             </ListBox>
         </ScrollViewer>
+
+        <!-- ✅ Перенос счётчика товаров вниз -->
+        <TextBlock Name="CountTextBlock"
+           Grid.Row="3"
+           HorizontalAlignment="Right"
+           Margin="10"
+           FontWeight="Bold"/>
+
     </Grid>
 </Window>

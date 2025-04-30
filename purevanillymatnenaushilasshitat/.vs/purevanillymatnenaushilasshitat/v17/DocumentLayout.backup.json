@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Amina\\Desktop\\demo_21-master\\purevanillymatnenaushilasshitat\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B25F3332-8C6A-4CF0-9E89-CCB1A382FCCC}|purevanillymatnenaushilasshitat\\purevanillymatnenaushilasshitat.csproj|c:\\users\\amina\\desktop\\demo_21-master\\purevanillymatnenaushilasshitat\\purevanillymatnenaushilasshitat\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B25F3332-8C6A-4CF0-9E89-CCB1A382FCCC}|purevanillymatnenaushilasshitat\\purevanillymatnenaushilasshitat.csproj|solutionrelative:purevanillymatnenaushilasshitat\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B25F3332-8C6A-4CF0-9E89-CCB1A382FCCC}|purevanillymatnenaushilasshitat\\purevanillymatnenaushilasshitat.csproj|c:\\users\\amina\\desktop\\demo_21-master\\purevanillymatnenaushilasshitat\\purevanillymatnenaushilasshitat\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B25F3332-8C6A-4CF0-9E89-CCB1A382FCCC}|purevanillymatnenaushilasshitat\\purevanillymatnenaushilasshitat.csproj|solutionrelative:purevanillymatnenaushilasshitat\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B25F3332-8C6A-4CF0-9E89-CCB1A382FCCC}|purevanillymatnenaushilasshitat\\purevanillymatnenaushilasshitat.csproj|c:\\users\\amina\\desktop\\demo_21-master\\purevanillymatnenaushilasshitat\\purevanillymatnenaushilasshitat\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B25F3332-8C6A-4CF0-9E89-CCB1A382FCCC}|purevanillymatnenaushilasshitat\\purevanillymatnenaushilasshitat.csproj|solutionrelative:purevanillymatnenaushilasshitat\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B25F3332-8C6A-4CF0-9E89-CCB1A382FCCC}|purevanillymatnenaushilasshitat\\purevanillymatnenaushilasshitat.csproj|c:\\users\\amina\\desktop\\demo_21-master\\purevanillymatnenaushilasshitat\\purevanillymatnenaushilasshitat\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25F3332-8C6A-4CF0-9E89-CCB1A382FCCC}|purevanillymatnenaushilasshitat\\purevanillymatnenaushilasshitat.csproj|solutionrelative:purevanillymatnenaushilasshitat\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B25F3332-8C6A-4CF0-9E89-CCB1A382FCCC}|purevanillymatnenaushilasshitat\\purevanillymatnenaushilasshitat.csproj|c:\\users\\amina\\desktop\\demo_21-master\\purevanillymatnenaushilasshitat\\purevanillymatnenaushilasshitat\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B25F3332-8C6A-4CF0-9E89-CCB1A382FCCC}|purevanillymatnenaushilasshitat\\purevanillymatnenaushilasshitat.csproj|c:\\users\\amina\\desktop\\demo_21-master\\purevanillymatnenaushilasshitat\\purevanillymatnenaushilasshitat\\entities\\tovar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B25F3332-8C6A-4CF0-9E89-CCB1A382FCCC}|purevanillymatnenaushilasshitat\\purevanillymatnenaushilasshitat.csproj|solutionrelative:purevanillymatnenaushilasshitat\\entities\\tovar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B25F3332-8C6A-4CF0-9E89-CCB1A382FCCC}|purevanillymatnenaushilasshitat\\purevanillymatnenaushilasshitat.csproj|c:\\users\\amina\\desktop\\demo_21-master\\purevanillymatnenaushilasshitat\\purevanillymatnenaushilasshitat\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B25F3332-8C6A-4CF0-9E89-CCB1A382FCCC}|purevanillymatnenaushilasshitat\\purevanillymatnenaushilasshitat.csproj|solutionrelative:purevanillymatnenaushilasshitat\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B25F3332-8C6A-4CF0-9E89-CCB1A382FCCC}|purevanillymatnenaushilasshitat\\purevanillymatnenaushilasshitat.csproj|c:\\users\\amina\\desktop\\demo_21-master\\purevanillymatnenaushilasshitat\\purevanillymatnenaushilasshitat\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,31 +54,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Amina\\Desktop\\demo_21-master\\purevanillymatnenaushilasshitat\\purevanillymatnenaushilasshitat\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "purevanillymatnenaushilasshitat\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Amina\\Desktop\\demo_21-master\\purevanillymatnenaushilasshitat\\purevanillymatnenaushilasshitat\\MainWindow.xaml.cs",
               "RelativeToolTip": "purevanillymatnenaushilasshitat\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAswDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T08:01:24.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Amina\\Desktop\\demo_21-master\\purevanillymatnenaushilasshitat\\purevanillymatnenaushilasshitat\\MainWindow.xaml",
               "RelativeDocumentMoniker": "purevanillymatnenaushilasshitat\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\Amina\\Desktop\\demo_21-master\\purevanillymatnenaushilasshitat\\purevanillymatnenaushilasshitat\\MainWindow.xaml",
               "RelativeToolTip": "purevanillymatnenaushilasshitat\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-23T08:01:13.687Z"
+              "WhenOpened": "2025-04-23T08:01:13.687Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Amina\\Desktop\\demo_21-master\\purevanillymatnenaushilasshitat\\purevanillymatnenaushilasshitat\\App.xaml.cs",
               "RelativeDocumentMoniker": "purevanillymatnenaushilasshitat\\App.xaml.cs",
@@ -86,7 +87,8 @@
               "RelativeToolTip": "purevanillymatnenaushilasshitat\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T07:43:45.504Z"
+              "WhenOpened": "2025-04-23T07:43:45.504Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -97,7 +99,8 @@
               "ToolTip": "C:\\Users\\Amina\\Desktop\\demo_21-master\\purevanillymatnenaushilasshitat\\purevanillymatnenaushilasshitat\\Styles.xaml",
               "RelativeToolTip": "purevanillymatnenaushilasshitat\\Styles.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-23T07:41:35.218Z"
+              "WhenOpened": "2025-04-23T07:41:35.218Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -108,11 +111,12 @@
               "ToolTip": "C:\\Users\\Amina\\Desktop\\demo_21-master\\purevanillymatnenaushilasshitat\\purevanillymatnenaushilasshitat\\App.xaml",
               "RelativeToolTip": "purevanillymatnenaushilasshitat\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-23T07:40:12.017Z"
+              "WhenOpened": "2025-04-23T07:40:12.017Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Tovar.cs",
               "DocumentMoniker": "C:\\Users\\Amina\\Desktop\\demo_21-master\\purevanillymatnenaushilasshitat\\purevanillymatnenaushilasshitat\\Entities\\Tovar.cs",
               "RelativeDocumentMoniker": "purevanillymatnenaushilasshitat\\Entities\\Tovar.cs",
@@ -124,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Database.cs",
               "DocumentMoniker": "C:\\Users\\Amina\\Desktop\\demo_21-master\\purevanillymatnenaushilasshitat\\purevanillymatnenaushilasshitat\\Database.cs",
               "RelativeDocumentMoniker": "purevanillymatnenaushilasshitat\\Database.cs",
@@ -132,7 +136,8 @@
               "RelativeToolTip": "purevanillymatnenaushilasshitat\\Database.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T07:04:09.363Z"
+              "WhenOpened": "2025-04-11T07:04:09.363Z",
+              "EditorCaption": ""
             }
           ]
         },
