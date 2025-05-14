@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\Amina\Desktop\demo_21-master\purevanillymatnenaushilasshitat\purevanillymatnenaushilasshitat\App.xaml
-2787170672
+4-1767633005
 9-1997072423
-9-763412074
+14-336105152
 206-343230814
-MainWindow.xaml;Styles.xaml;
+LoginWindow.xaml;MainWindow.xaml;RegistrationWindow.xaml;Styles.xaml;
 
 False
 

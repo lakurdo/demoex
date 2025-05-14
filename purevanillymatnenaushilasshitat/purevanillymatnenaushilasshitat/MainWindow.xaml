@@ -4,7 +4,6 @@
         Title="Каталог товаров" Height="600" Width="850"
         Background="White">
     <Window.Resources>
-        <!-- Общий стиль текста -->
         <Style TargetType="TextBlock">
             <Setter Property="FontFamily" Value="Century Gothic"/>
             <Setter Property="FontSize" Value="14"/>
@@ -22,14 +21,62 @@
             <RowDefinition Height="30"/>
         </Grid.RowDefinitions>
 
-        <!-- Верхняя панель -->
         <Border Background="#90EE90" Grid.Row="0">
-            <TextBlock Text="Каталог товаров" VerticalAlignment="Center" HorizontalAlignment="Center"
-                       FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Text="Каталог товаров"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   FontSize="24"
+                   FontWeight="Bold"
+                   Foreground="Black"/>
+
+                <StackPanel Grid.Column="0" Orientation="Vertical" Margin="10,0,0,0" VerticalAlignment="Center">
+                    <TextBlock x:Name="LoginTextBlock" Text="Логин: " Visibility="Collapsed" FontWeight="Bold"/>
+                    <TextBlock x:Name="RoleTextBlock" Text="Роль: " Visibility="Collapsed"/>
+                </StackPanel>
+
+                <Button x:Name="AuthButton"
+        Content="Войти"
+        Width="80"
+        Height="30"
+        Margin="10,10,5,10"
+        HorizontalAlignment="Right"
+        VerticalAlignment="Center"
+        Grid.Column="1"
+        Click="AuthButton_Click"/>
+
+                <Button x:Name="RegisterButton"
+        Content="Регистрация"
+        Width="100"
+        Height="30"
+        Margin="5,10,10,10"
+        HorizontalAlignment="Right"
+        VerticalAlignment="Center"
+        Grid.Column="2"
+        Click="RegisterButton_Click"/>
+
+                <Button x:Name="LogoutButton"
+        Content="Выйти"
+        Width="100"
+        Height="30"
+        Margin="5,10,10,10"
+        HorizontalAlignment="Right"
+        VerticalAlignment="Center"
+        Grid.Column="2"
+        Click="LogoutButton_Click"
+        Visibility="Collapsed"/>
+
+            </Grid>
         </Border>
-        <!-- Панель фильтра и поиска -->
+        
         <DockPanel Grid.Row="1" Margin="10">
-            <!-- Фильтр по скидке -->
+            
             <StackPanel Orientation="Vertical" Width="200">
                 <TextBlock Text="Фильтрация по скидке"/>
                 <ComboBox Name="DiscountFilterCB" SelectionChanged="Filter_Changed">
@@ -40,14 +87,12 @@
 
             </StackPanel>
 
-            <!-- Поиск -->
             <StackPanel Orientation="Vertical" Margin="0,0,0,0" HorizontalAlignment="Right">
                 <TextBlock Text="Поиск"/>
                 <TextBox Name="SearchTB" Width="200" TextChanged="Filter_Changed"/>
             </StackPanel>
         </DockPanel>
 
-        <!-- Список товаров -->
         <ScrollViewer Grid.Row="2">
             <ListBox Name="TovarLB"
              Background="White"
@@ -63,12 +108,10 @@
                                     <ColumnDefinition Width="70"/>
                                 </Grid.ColumnDefinitions>
 
-                                <!-- Изображение -->
                                 <Border BorderBrush="LightGray" BorderThickness="1" Grid.Column="0" Margin="5">
                                     <Image Source="{Binding Picture}" Stretch="Uniform" Margin="5"/>
                                 </Border>
 
-                                <!-- Текст товара -->
                                 <Border BorderBrush="LightGray" BorderThickness="1" Grid.Column="1" Margin="5">
                                     <StackPanel Margin="10">
                                         <TextBlock Text="{Binding Naimenovanie}" FontWeight="Bold" FontSize="18"/>
@@ -78,7 +121,6 @@
                                     </StackPanel>
                                 </Border>
 
-                                <!-- Скидка -->
                                 <Border BorderBrush="LightGray" BorderThickness="1" Grid.Column="2" Margin="5">
                                     <TextBlock Text="{Binding Deistvyushay_sale, StringFormat=' {0} %'}"
                                        Foreground="OrangeRed"
@@ -94,7 +136,6 @@
             </ListBox>
         </ScrollViewer>
 
-        <!-- ✅ Перенос счётчика товаров вниз -->
         <TextBlock Name="CountTextBlock"
            Grid.Row="3"
            HorizontalAlignment="Right"

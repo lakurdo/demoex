@@ -23,7 +23,7 @@ namespace purevanillymatnenaushilasshitat
     public partial class MainWindow : Window
     {
         private ObservableCollection<Tovar> itemColl { get; set; } = new();
-        private List<Tovar> allItems = new(); // оригинальный список без фильтрации
+        private List<Tovar> allItems = new();
 
         public MainWindow()
         {
@@ -57,6 +57,51 @@ namespace purevanillymatnenaushilasshitat
             CountTextBlock.Text = $"Товаров: {itemColl.Count}";
 
         }
+        private void AuthButton_Click(object sender, RoutedEventArgs e)
+        {
+            LoginWindow loginWindow = new LoginWindow();
+            if (loginWindow.ShowDialog() == true)
+            {
+                string username = loginWindow.LoggedInUsername;
+                string role = loginWindow.LoggedInRole;
+                UpdateAuthUI(username, role);
+            }
+        }
+
+
+        private void RegisterButton_Click(object sender, RoutedEventArgs e)
+        {
+            RegistrationWindow registrationWindow = new RegistrationWindow();
+            registrationWindow.ShowDialog();
+        }
+
+        private void LogoutButton_Click(object sender, RoutedEventArgs e)
+        {
+            LoginTextBlock.Visibility = Visibility.Collapsed;
+            RoleTextBlock.Visibility = Visibility.Collapsed;
+
+            AuthButton.Visibility = Visibility.Visible;
+            RegisterButton.Visibility = Visibility.Visible;
+            LogoutButton.Visibility = Visibility.Collapsed;
+
+            MessageBox.Show("Вы вышли из аккаунта.");
+        }
+
+
+
+        public void UpdateAuthUI(string username, string role)
+        {
+            LoginTextBlock.Text = $"Логин: {username}";
+            RoleTextBlock.Text = $"Роль: {role}";
+
+            LoginTextBlock.Visibility = Visibility.Visible;
+            RoleTextBlock.Visibility = Visibility.Visible;
+
+            AuthButton.Visibility = Visibility.Collapsed;
+            RegisterButton.Visibility = Visibility.Collapsed;
+            LogoutButton.Visibility = Visibility.Visible;
+        }
+
 
         private void Filter_Changed(object sender, EventArgs e)
         {
@@ -71,18 +116,16 @@ namespace purevanillymatnenaushilasshitat
 
             var filtered = allItems.Where(item =>
             {
-                // Поиск
                 if (!string.IsNullOrWhiteSpace(search) &&
                     !item.Naimenovanie.ToLower().Contains(search))
                     return false;
 
-                // Фильтр по скидке
                 double discount = item.Deistvyushay_sale;
                 return discountFilter switch
                 {
                     "0% - 4%" => discount >= 0 && discount <= 4,
                     "5% - 7%" => discount >= 5 && discount <= 7,
-                    _ => true // "Все скидки"
+                    _ => true
                 };
             }).ToList();
 

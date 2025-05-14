@@ -49,3 +49,7 @@ C:\Users\Amina\Desktop\demo_21-master\purevanillymatnenaushilasshitat\purevanill
 C:\Users\Amina\Desktop\demo_21-master\purevanillymatnenaushilasshitat\purevanillymatnenaushilasshitat\obj\Debug\net8.0-windows\Styles.baml
 C:\Users\Amina\Desktop\demo_21-master\purevanillymatnenaushilasshitat\purevanillymatnenaushilasshitat\obj\Debug\net8.0-windows\App.baml
 C:\Users\Amina\Desktop\demo_21-master\purevanillymatnenaushilasshitat\purevanillymatnenaushilasshitat\obj\Debug\net8.0-windows\purevanillymatnenaushilasshitat.sourcelink.json
+C:\Users\Amina\Desktop\demo_21-master\purevanillymatnenaushilasshitat\purevanillymatnenaushilasshitat\obj\Debug\net8.0-windows\LoginWindow.g.cs
+C:\Users\Amina\Desktop\demo_21-master\purevanillymatnenaushilasshitat\purevanillymatnenaushilasshitat\obj\Debug\net8.0-windows\RegistrationWindow.g.cs
+C:\Users\Amina\Desktop\demo_21-master\purevanillymatnenaushilasshitat\purevanillymatnenaushilasshitat\obj\Debug\net8.0-windows\LoginWindow.baml
+C:\Users\Amina\Desktop\demo_21-master\purevanillymatnenaushilasshitat\purevanillymatnenaushilasshitat\obj\Debug\net8.0-windows\RegistrationWindow.baml

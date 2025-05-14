@@ -34,6 +34,26 @@ CREATE TABLE IF NOT EXISTS `tovar` (
    foreign key (ID_Proizvoditela) references proizvoditel(ID_Proizvoditela),
    foreign key (ID_Postavshika) references postavshik(ID_Postavshika));
    
+CREATE TABLE roles (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL UNIQUE
+);
 
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(100) NOT NULL UNIQUE,
+    password_hash VARCHAR(255) NOT NULL,
+    role_id INT,
+    FOREIGN KEY (role_id) REFERENCES roles(id)
+);
 
-select * from Tovar
+-- Вставка ролей
+INSERT INTO roles (name) VALUES ('Администратор'), ('Клиент');
+
+-- Вставка пользователей (пароли условные)
+INSERT INTO users (username, password_hash, role_id)
+VALUES 
+('лякурдо_блядэ', 'лякурдо_блядэ', 1),
+('lak', 'lak', 2)
+
+select * from users
